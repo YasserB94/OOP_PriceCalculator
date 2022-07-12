@@ -1,4 +1,4 @@
-<div class="container flex items-center justify-center">
+<div class="container flex items-center justify-center m-5">
 <form method="post" class="bg-white shadow-md w-2/4 justify-center">
     <div class="flex flex-col p-2 justify-center">
     <label for="customers">Choose your name:</label>
