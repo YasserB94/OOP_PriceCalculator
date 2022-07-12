@@ -15,8 +15,15 @@ $dotenv->load(__DIR__."/.env");
 
 //ADD DBCONTROLLER
 require "Controllers/priceCalculatorController.php";
-$controller = new priceCalculatorController();
+
+$controller = new priceCalculatorController($_POST);
+
+
+
 $controller->render();
+
+
+
 //Footer and closing tag for body/html
 require './Views/footer.php';
 ?>
