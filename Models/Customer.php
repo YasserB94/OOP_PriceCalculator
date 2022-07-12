@@ -42,7 +42,7 @@ class Group{
     public function __construct(string $name,int $fixedDiscount,int $variableDiscount){
         $this->name = $name;
         $this->fixedDiscount = $fixedDiscount;
-        $this->$variableDiscount = $variableDiscount;
+        $this->variableDiscount = $variableDiscount;
     }
     public function getName():string{
         return $this->name;
